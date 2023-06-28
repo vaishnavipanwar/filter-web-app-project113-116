@@ -1,0 +1,19 @@
+body{
+    background-image:url("background_1.jpg");
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{
+    box-shadow: 5px 5px 40px red;
+    }
+    to{
+    box-shadow: 5px 5px 40px purple;
+    }
+}
+
